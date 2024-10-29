@@ -43,20 +43,9 @@ To expose your local server to the internet, you need to use ngrok. Follow the i
 
 2. **Configure the ngrok URL:**
 
-   - In the Swift project, locate the configuration file where the server URL is set.
+   - In the Swift project, locate the ContentView and where the server URL is set.
    - Replace the existing URL with your ngrok URL.
 
 3. **Run the Swift app:**
    - Build and run the app on your device or simulator.
    - Use the app interface to send logs to your server.
-
-### Example
-
-Here's an example of how to send a log from the Swift app:
-
-```swift
-let logMessage = "This is a test log message."
-sendLog(message: logMessage)
-```
-
-Your logs should now be visible on the server console.

@@ -50,7 +50,7 @@ struct ContentView: View {
     
     // Function to send device information to a log server
     func sendDeviceInfoToServer() {
-        guard let url = URL(string: "https://cbc1-2003-d8-6705-1800-ccd-a460-e96b-efc9.ngrok-free.app/logs") else { return }
+        guard let url = URL(string: "https://INSERT_NGROK_URL_HERE/logs") else { return }
         
         // Prepare the data to send
         let parameters: [String: Any] = [

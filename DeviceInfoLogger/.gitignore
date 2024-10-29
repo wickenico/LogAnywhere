@@ -1,0 +1,10 @@
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+Package.resolved
